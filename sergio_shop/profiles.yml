@@ -1,0 +1,13 @@
+sergio_shop:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: WIN-5SCJH6DGK12
+      user: postgres
+      password: Kspssb06!
+      port: 4432
+      dbname: postgres
+      schema: demo
+      threads: 3
+      keepalives_idle: 0 # default 0, indicating the system default
